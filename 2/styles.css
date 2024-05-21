@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Montserrat:wght@400;600;700&family=Nunito:wght@300;400;700&display=swap');
+
+body{
+    font-family: 'Comfortaa', cursive;
+}
+
+.container {
+    /* border: black solid 1px; */
+    width: 95%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hex-colors{
+    /* border: 1px solid black; */
+    text-align: center;
+    
+}
+
+.hex-colors h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+    animation: changeColor 10s infinite alternate;
+}
+
+.hex-colors h2{
+    font-size: 2rem;
+    /* border: 1px solid black; */
+    margin-top: 15%;
+    
+}
+
+/* @keyframes changeColor {
+    0% {
+        color: indigo;
+    }
+    20% {
+        color: blue;
+    }
+    40% {
+        color: red;
+    }
+    60% {
+        color: yellow;
+    }
+    80% {
+        color: green;
+    }
+    100% {
+        color: orange;
+    }
+} */
+
+@media(max-width:480px) {
+    .hex-colors h1 {
+        font-size: 1.5rem;
+    }
+    .hex-colors h2 {
+        font-size: 1.5rem;
+    }
+}

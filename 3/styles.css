@@ -1,0 +1,84 @@
+body{
+    background: #06bcc1;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    /* border: 1px solid #000; */
+    width: 95%;
+    /* margin-top: 5vh; */
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quotes{
+    /* border: 1px solid #000; */
+    
+    width: 900px;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    color: gray;
+    background: #f4edea;
+    border: 10px ridge #F4d1ae;
+}
+
+.quotes p, h3{
+    font-size: 1.5rem;
+}
+
+button {
+    margin: 20px;
+}
+
+.btn-generate{
+    background: #f4edea;
+    color: #06bcc1;
+    border: 4px #F4d1ae ;
+    border-style: ridge ;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.btn-generate:hover{
+    background: #06bcc1;
+    color: #f4edea;
+    border: 4px #f4edea ;
+    border-style: ridge ;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.btn-generate:active{
+    color: #06bcc1;
+    background: #06bcc1;
+    border: 4px #25cff2 ;
+    border-style: ridge ;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+@media(max-width: 480px){
+    .quotes{
+        font-size: 1rem;
+    }
+}
